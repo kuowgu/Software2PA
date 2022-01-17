@@ -11,6 +11,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class Main extends Application {
+    // Locale.setDefault(new Locale("fr"));
 
     ResourceBundle rb = ResourceBundle.getBundle("source/Nat", Locale.getDefault());
 
